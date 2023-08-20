@@ -10,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProductComponent } from './product/product.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProductAddComponent } from './product-add/product-add.component';
+import { ProductViewComponent } from './product-view/product-view.component';
+import { ProductEditComponent } from './product-edit/product-edit.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ContactComponent,
     HomeComponent,
     LoginComponent,
-    ProductComponent
+    ProductComponent,
+    ProductAddComponent,
+    ProductViewComponent,
+    ProductEditComponent
   ],
   imports: [
     BrowserModule,
